@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: aliceblue;
+}
+
+.productsPreview img {
+    width: 200px;
+}
+
+.mainImg img{
+    width: 200px;
+}
+
+.searchZone {
+    background-color: red;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.searchZone input {
+    outline: none;
+    border: none;
+    background-color: red;
+}
+
+.searchZone i, 
+.searchZone input::placeholder {
+    color: #fff;
+}
+

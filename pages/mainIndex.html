@@ -1,50 +1,236 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="stylesheet" href="/style/mainStyle.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style/mainStyle.css" />
 
-    <title>E-commerce</title>
-</head>
-<body>
+    <title>Shopeeca</title>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <h1>E-comes</h1> <!-- vou mudar dps -->
-        </div>
+      <div class="logo">
+        <h1>Shopeeca</h1>
+        <!-- vou mudar dps -->
+      </div>
 
-        <div class="topics-nav">
-            <ul>
-                <a href="#">
-                    <li>Products</li>
-                </a>
-                <a href="#">
-                    <li>Contact</li>
-                </a>
-                <a href="#">
-                    <li>About Us</li>
-                </a>
-            </ul>
-        </div>
+      <div class="topics-nav">
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Products</li>
+            </a>
+            <a href="#">
+              <li>Contact</li>
+            </a>
+            <a href="#">
+              <li>About Us</li>
+            </a>
+          </ul>
+        </nav>
 
-        <div class="menu-icons">
+        <aside>
+          <nav>
             <ul>
-                <a href="#">
-                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-cart-shopping"></i></li>
-                </a>
-                <a href="#">
-                    <li><i class="fa-solid fa-user"></i></li>
-                </a>
+              <a href="#">
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              </a>
+              <a href="#">
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+              </a>
+              <a href="#">
+                <li><i class="fa-solid fa-user"></i></li>
+              </a>
             </ul>
-        </div>
+          </nav>
+        </aside>
+      </div>
     </header>
 
-    
-</body>
+    <section>
+      <h2>find the best products for your home</h2>
+
+      <div class="searchZone">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for what you want" />
+      </div>
+
+      <div class="mainImg">
+        <img src="/assets/images/img-main/shoes.jpg" alt="" />
+      </div>
+    </section>
+
+    <nav class="productCategories">
+      <ul>
+        <a href="#">
+          <li>Cosmetics</li>
+        </a>
+        <a href="#">
+          <li>Clothes</li>
+        </a>
+        <a href="#">
+          <li>Eletronics</li>
+        </a>
+        <a href="#">
+          <li>Books</li>
+        </a>
+        <a href="#">
+          <li>Furniture</li>
+        </a>
+        <a href="#">
+          <li>See All</li>
+        </a>
+      </ul>
+
+      <div class="next prev">
+        <i class="fa-solid fa-arrow-left prev"></i>
+        <i class="fa-solid fa-arrow-right next"></i>
+      </div>
+    </nav>
+
+    <main>
+      <div class="productsPreview">
+        <article>
+          <img src="/assets/images/products-img/bolsa.jpeg" alt="bolsa" />
+
+          <div class="product-info">
+            <p>Hand Bag</p>
+            <p>R$90.00</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="/assets/images/products-img/celular.jpeg" alt="cel" />
+
+          <div class="product-info">
+            <p>Samsung Smartphone</p>
+            <p>R$2000.00</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="/assets/images/products-img/headphone.jpeg" alt="fone" />
+
+          <div class="product-info">
+            <p>Headphone</p>
+            <p>R$100.00</p>
+          </div>
+        </article>
+
+        <article>
+          <img
+            src="/assets/images/products-img/shoesAdidas.jpeg"
+            alt="adidas shoes"
+          />
+
+          <div class="product-info">
+            <p>Adidas Shoes</p>
+            <p>R$150.00</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="/assets/images/products-img/sofaseila.jpeg" alt="couch" />
+
+          <div class="product-info">
+            <p>Couch</p>
+            <p>R$800.00</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="/assets/images/products-img/watch.jpeg" alt="apple watch" />
+
+          <div class="product-info">
+            <p>Smart Watch</p>
+            <p>R$600.00</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="newProduct">
+        <h3>Latest Console Is Coming</h3>
+        <p>Last Gen Gameplay</p>
+
+        <input type="submit" value="More" />
+
+        <img
+          src="/assets/images/products-img/polystation.jpeg"
+          alt="polystation"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <div class="logoFooter">
+        <h1>Shopeeca</h1>
+      </div>
+
+      <div class="socialMedia">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+
+      <div class="shop-footer">
+        <h3>Shop</h3>
+
+        <ul>
+          <a href="#">
+            <li>About Us</li>
+          </a>
+          <a href="">
+            <li>Address</li>
+          </a>
+          <a href="">
+            <li>FAQ</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="categoriesLink">
+        <h3>Links</h3>
+
+        <ul>
+          <a href="#">
+            <li>Cosmetics</li>
+          </a>
+          <a href="#">
+            <li>Clothes</li>
+          </a>
+          <a href="#">
+            <li>Eletronics</li>
+          </a>
+          <a href="#">
+            <li>Books</li>
+          </a>
+          <a href="#">
+            <li>Furniture</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h3>Contact</h3>
+
+        <ul>
+          <a href="">
+            <li>+1 23 4567 8910</li>
+          </a>
+          <a href="">
+            <li>shopeeca@mail.com</li>
+          </a>
+          <a href="">
+            <li>123 PS2, London, UK</li>
+          </a>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
