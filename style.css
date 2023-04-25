@@ -116,6 +116,7 @@ section {
 
 .productsPreview img {
     width: 250px;
+    cursor: pointer;
 }
 
 .productsPreview {
