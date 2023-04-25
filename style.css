@@ -14,6 +14,10 @@ header {
     border-radius: 12px;
 }
 
+h1, h2, h3, p {
+    cursor: default;
+} 
+
 .logo h1 {
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 30pt;
@@ -112,6 +116,10 @@ section {
     padding: 1.8rem;
     list-style: none;
     text-decoration: none;
+}
+
+.productsCategories a:hover {
+    color: rgb(255, 36, 36);
 }
 
 .productsPreview img {
